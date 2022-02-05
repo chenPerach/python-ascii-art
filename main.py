@@ -22,7 +22,7 @@ def main():
     if os.path.isfile("img.jpg"):
         os.remove("img.jpg")
     
-    wget.download('https://c8.alamy.com/comp/2BYW71B/geometrical-signs-circles-and-squares-high-contrast-retro-seamless-pattern-in-black-and-white-vector-illustration-2BYW71B.jpg',"img.jpg")
+    wget.download('https://picsum.photos/200',"img.jpg")
 
     with Image.open("img.jpg") as im:
         width,height = im.size
